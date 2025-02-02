@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0541382C53096100122371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0541372C53096100122371 /* LaunchScreen.storyboard */; };
+		2D147DA72BAE434B00762DA5 /* ScottyliciousApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D147DA62BAE434B00762DA5 /* ScottyliciousApp.swift */; };
+		2D147DA92BAE434B00762DA5 /* RecipesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D147DA82BAE434B00762DA5 /* RecipesListView.swift */; };
+		2D147DAB2BAE434C00762DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D147DAA2BAE434C00762DA5 /* Assets.xcassets */; };
+		2D147DAE2BAE434C00762DA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D147DAD2BAE434C00762DA5 /* Preview Assets.xcassets */; };
+		2D147DB52BAF231E00762DA5 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D147DB42BAF231E00762DA5 /* Recipe.swift */; };
+		2D147DD92BAF782700762DA5 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D147DD82BAF782700762DA5 /* RecipeData.swift */; };
+		2D147DDB2BAF93FD00762DA5 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D147DDA2BAF93FD00762DA5 /* RecipeDetailView.swift */; };
+		2D147DDD2BB0901F00762DA5 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D147DDC2BB0901F00762DA5 /* AppColor.swift */; };
+		2D147DF92BB0BE7800762DA5 /* RecipeCategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D147DF82BB0BE7800762DA5 /* RecipeCategoryGridView.swift */; };
+		2D9EB7042C51C90F0021EB28 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EB7032C51C90F0021EB28 /* SettingsView.swift */; };
+		2DCE59702C51623800651879 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE596F2C51623800651879 /* MainTabView.swift */; };
+		2DDDBA2B2BCC60C900887ABD /* ModifyMainInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDBA2A2BCC60C900887ABD /* ModifyMainInformationView.swift */; };
+		2DDDBA2D2BCCA94500887ABD /* ModifyIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDBA2C2BCCA94500887ABD /* ModifyIngredientView.swift */; };
+		2DDDBA2F2BCD8C7000887ABD /* ModifyComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDBA2E2BCD8C7000887ABD /* ModifyComponentsView.swift */; };
+		2DF19D962C3B1DBB00182BD6 /* ModifyDirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF19D952C3B1DBB00182BD6 /* ModifyDirectionView.swift */; };
+		2DF4E6DC2BB229F70041D4EE /* ModifyRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4E6DB2BB229F70041D4EE /* ModifyRecipeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D0541372C53096100122371 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D147DA32BAE434B00762DA5 /* Scottylicious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scottylicious.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D147DA62BAE434B00762DA5 /* ScottyliciousApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScottyliciousApp.swift; sourceTree = "<group>"; };
+		2D147DA82BAE434B00762DA5 /* RecipesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListView.swift; sourceTree = "<group>"; };
+		2D147DAA2BAE434C00762DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D147DAD2BAE434C00762DA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D147DB42BAF231E00762DA5 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		2D147DD82BAF782700762DA5 /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		2D147DDA2BAF93FD00762DA5 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		2D147DDC2BB0901F00762DA5 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		2D147DF82BB0BE7800762DA5 /* RecipeCategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryGridView.swift; sourceTree = "<group>"; };
+		2D9EB7032C51C90F0021EB28 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2DCE596F2C51623800651879 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		2DDDBA2A2BCC60C900887ABD /* ModifyMainInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyMainInformationView.swift; sourceTree = "<group>"; };
+		2DDDBA2C2BCCA94500887ABD /* ModifyIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyIngredientView.swift; sourceTree = "<group>"; };
+		2DDDBA2E2BCD8C7000887ABD /* ModifyComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyComponentsView.swift; sourceTree = "<group>"; };
+		2DF19D952C3B1DBB00182BD6 /* ModifyDirectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyDirectionView.swift; sourceTree = "<group>"; };
+		2DF4E6DB2BB229F70041D4EE /* ModifyRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyRecipeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D147DA02BAE434B00762DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D147D9A2BAE434B00762DA5 = {
+			isa = PBXGroup;
+			children = (
+				2D147DA52BAE434B00762DA5 /* Scottylicious */,
+				2D147DA42BAE434B00762DA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D147DA42BAE434B00762DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D147DA32BAE434B00762DA5 /* Scottylicious.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D147DA52BAE434B00762DA5 /* Scottylicious */ = {
+			isa = PBXGroup;
+			children = (
+				2D147DA62BAE434B00762DA5 /* ScottyliciousApp.swift */,
+				2D147DBA2BAF490200762DA5 /* Models */,
+				2D147DD72BAF755000762DA5 /* Views */,
+				2D147DB92BAF48EE00762DA5 /* ViewModels */,
+				2D147DAA2BAE434C00762DA5 /* Assets.xcassets */,
+				2D147DAC2BAE434C00762DA5 /* Preview Content */,
+			);
+			path = Scottylicious;
+			sourceTree = "<group>";
+		};
+		2D147DAC2BAE434C00762DA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D147DAD2BAE434C00762DA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D147DB92BAF48EE00762DA5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2D147DDC2BB0901F00762DA5 /* AppColor.swift */,
+				2D147DD82BAF782700762DA5 /* RecipeData.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2D147DBA2BAF490200762DA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D147DB42BAF231E00762DA5 /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D147DD72BAF755000762DA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DF4E6DA2BB229BA0041D4EE /* ExploreRecipes */,
+				2DF4E6D92BB229A50041D4EE /* ModifyRecipes */,
+				2DCE596F2C51623800651879 /* MainTabView.swift */,
+				2D9EB7032C51C90F0021EB28 /* SettingsView.swift */,
+				2D0541372C53096100122371 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2DF4E6D92BB229A50041D4EE /* ModifyRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				2DF4E6DB2BB229F70041D4EE /* ModifyRecipeView.swift */,
+				2DDDBA2A2BCC60C900887ABD /* ModifyMainInformationView.swift */,
+				2DDDBA2C2BCCA94500887ABD /* ModifyIngredientView.swift */,
+				2DDDBA2E2BCD8C7000887ABD /* ModifyComponentsView.swift */,
+				2DF19D952C3B1DBB00182BD6 /* ModifyDirectionView.swift */,
+			);
+			path = ModifyRecipes;
+			sourceTree = "<group>";
+		};
+		2DF4E6DA2BB229BA0041D4EE /* ExploreRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				2D147DF82BB0BE7800762DA5 /* RecipeCategoryGridView.swift */,
+				2D147DDA2BAF93FD00762DA5 /* RecipeDetailView.swift */,
+				2D147DA82BAE434B00762DA5 /* RecipesListView.swift */,
+			);
+			path = ExploreRecipes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D147DA22BAE434B00762DA5 /* Scottylicious */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D147DB12BAE434C00762DA5 /* Build configuration list for PBXNativeTarget "Scottylicious" */;
+			buildPhases = (
+				2D147D9F2BAE434B00762DA5 /* Sources */,
+				2D147DA02BAE434B00762DA5 /* Frameworks */,
+				2D147DA12BAE434B00762DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scottylicious;
+			productName = Scottylicious;
+			productReference = 2D147DA32BAE434B00762DA5 /* Scottylicious.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D147D9B2BAE434B00762DA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2D147DA22BAE434B00762DA5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 2D147D9E2BAE434B00762DA5 /* Build configuration list for PBXProject "Scottylicious" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D147D9A2BAE434B00762DA5;
+			productRefGroup = 2D147DA42BAE434B00762DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D147DA22BAE434B00762DA5 /* Scottylicious */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D147DA12BAE434B00762DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0541382C53096100122371 /* LaunchScreen.storyboard in Resources */,
+				2D147DAE2BAE434C00762DA5 /* Preview Assets.xcassets in Resources */,
+				2D147DAB2BAE434C00762DA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D147D9F2BAE434B00762DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D147DB52BAF231E00762DA5 /* Recipe.swift in Sources */,
+				2D147DDB2BAF93FD00762DA5 /* RecipeDetailView.swift in Sources */,
+				2D147DF92BB0BE7800762DA5 /* RecipeCategoryGridView.swift in Sources */,
+				2D147DD92BAF782700762DA5 /* RecipeData.swift in Sources */,
+				2DF19D962C3B1DBB00182BD6 /* ModifyDirectionView.swift in Sources */,
+				2DF4E6DC2BB229F70041D4EE /* ModifyRecipeView.swift in Sources */,
+				2DDDBA2F2BCD8C7000887ABD /* ModifyComponentsView.swift in Sources */,
+				2D9EB7042C51C90F0021EB28 /* SettingsView.swift in Sources */,
+				2DCE59702C51623800651879 /* MainTabView.swift in Sources */,
+				2D147DA92BAE434B00762DA5 /* RecipesListView.swift in Sources */,
+				2D147DA72BAE434B00762DA5 /* ScottyliciousApp.swift in Sources */,
+				2DDDBA2B2BCC60C900887ABD /* ModifyMainInformationView.swift in Sources */,
+				2D147DDD2BB0901F00762DA5 /* AppColor.swift in Sources */,
+				2DDDBA2D2BCCA94500887ABD /* ModifyIngredientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D147DAF2BAE434C00762DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D147DB02BAE434C00762DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D147DB22BAE434C00762DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scottylicious/Preview Content\"";
+				DEVELOPMENT_TEAM = L47ZX65B39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Scottylicious;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashtariaproductions.Scottylicious;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D147DB32BAE434C00762DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scottylicious/Preview Content\"";
+				DEVELOPMENT_TEAM = L47ZX65B39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Scottylicious;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashtariaproductions.Scottylicious;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D147D9E2BAE434B00762DA5 /* Build configuration list for PBXProject "Scottylicious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D147DAF2BAE434C00762DA5 /* Debug */,
+				2D147DB02BAE434C00762DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D147DB12BAE434C00762DA5 /* Build configuration list for PBXNativeTarget "Scottylicious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D147DB22BAE434C00762DA5 /* Debug */,
+				2D147DB32BAE434C00762DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D147D9B2BAE434B00762DA5 /* Project object */;
+}
