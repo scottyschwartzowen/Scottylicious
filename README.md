@@ -1,7 +1,7 @@
 # Scottylicious IOS App
 
 <p align="left">
-    <img src="https://github.com/scottyschwartzowen/Mappin/blob/main/ScottysMapApp/Assets.xcassets/Images/map-app.imageset/map-app.png" alt="Mappin App Image" width="75%" />
+    <img src="https://github.com/scottyschwartzowen/Scottylicious/blob/main/Scottylicious/Assets.xcassets/Images/scottylicious.imageset/scottylicious.png" alt="Scottylicious App Image" width="75%" />
 </p>
 
 - Created 100% in Swift / SwiftUI
@@ -14,10 +14,10 @@
 
 - Robust identifiable data model with MVVM architecture
 
-- Grid View of food categories navigate between recipe Lists
+- Grid View of food categories to navigate between recipe Lists
 
-- Tabbar, Sheets, and Modal View dynamically show images and text
+- Tabbar, Sheets, and Modal Views dynamically show images and text
 
-- Forms with Pickers persist color scheme settings with AppStorage
+- Pickers in Forms to persist color scheme settings with AppStorage
 
 - Persisting recipes using FileManager with JSON codable conformance
