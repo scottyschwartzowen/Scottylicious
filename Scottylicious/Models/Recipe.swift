@@ -121,7 +121,7 @@ extension Recipe {
 	static let testRecipes: [Recipe] = [
 		Recipe(mainInformation: MainInformation(name: "Chicken Feta Meatballs",
 																						description: "with delicious Lemon Orzo & Spinach",
-																						author: "Scotty",
+																						author: "Scotty Schwartz-Owen",
 																						category: .dinner),
 					 ingredients: [
 						Ingredient(name: "Ground Chicken", quantity: 1, unit: .lbs),
@@ -154,7 +154,7 @@ extension Recipe {
 		),
 		Recipe(mainInformation: MainInformation(name: "Beet and Apple Salad",
 																						description: "Light and refreshing summer salad made of beets, apples and fresh mint",
-																						author: "Deb Szajngarten",
+																						author: "Scotty Schwartz-Owen",
 																						category: .lunch),
 					 ingredients: [
 						Ingredient(name: "Large beet", quantity: 3, unit: .none),
@@ -177,7 +177,7 @@ extension Recipe {
 		),
 		Recipe(mainInformation: MainInformation(name: "Braised Beef Brisket",
 																						description: "Slow cooked brisket in a savory braise that makes an amazing gravy.",
-																						author: "Deb Szajngarten",
+																						author: "Scotty Schwartz-Owen",
 																						category: .dinner),
 					 ingredients: [
 						Ingredient(name: "Brisket", quantity: 1815, unit: .g),
@@ -205,7 +205,7 @@ extension Recipe {
 		),
 		Recipe(mainInformation: MainInformation(name: "Best Brownies Ever",
 																						description: "Five simple ingredients make these brownies easy to make and delicious to consume!",
-																						author: "Pam Broda",
+																						author: "Scotty Schwartz-Owen",
 																						category: .dessert),
 					 ingredients: [
 						Ingredient(name: "Condensed Milk", quantity: 14, unit: .oz),
@@ -225,7 +225,7 @@ extension Recipe {
 		),
 		Recipe(mainInformation: MainInformation(name: "Omelet and Greens",
 																						description: "Quick, crafty omelet with greens!",
-																						author: "Taylor Murray",
+																						author: "Scotty Schwartz-Owen",
 																						category: .breakfast),
 					 ingredients: [
 						Ingredient(name: "Olive Oil", quantity: 3, unit: .tbs),
@@ -251,7 +251,7 @@ extension Recipe {
 		),
 		Recipe(mainInformation: MainInformation(name: "Vegetarian Chili",
 																						description: "Warm, comforting, and filling vegetarian chili",
-																						author: "Makeinze Gore",
+																						author: "Scotty Schwartz-Owen",
 																						category: .lunch),
 					 ingredients: [
 						Ingredient(name: "Chopped Onion", quantity: 1, unit: .none),
@@ -282,7 +282,7 @@ extension Recipe {
 		),
 		Recipe(mainInformation: MainInformation(name: "Classic Shrimp Scampi",
 																						description: "Simple, delicate shrimp bedded in a delicious set of pasta that will melt your tastebuds!",
-																						author: "Sarah Taller",
+																						author: "Scotty Schwartz-Owen",
 																						category: .dinner),
 					 ingredients: [
 						Ingredient(name: "Linguini", quantity: 12, unit: .oz),
@@ -312,7 +312,7 @@ extension Recipe {
 		),
 		Recipe(mainInformation: MainInformation(name: "Chocolate Billionaires",
 																						description: "Chocolate and caramel candies that are to die for!",
-																						author: "Jack B",
+																						author: "Scotty Schwartz-Owen",
 																						category: .dessert),
 					 ingredients: [
 						Ingredient(name: "Caramel Candies", quantity: 14, unit: .oz),
@@ -339,7 +339,7 @@ extension Recipe {
 		),
 		Recipe(mainInformation: MainInformation(name: "Mac & Cheese",
 																						description: "Macaroni & Cheese",
-																						author: "Travis B",
+																						author: "Scotty Schwartz-Owen",
 																						category: .dinner),
 					 ingredients: [
 						Ingredient(name: "Elbow Macaroni", quantity: 12, unit: .oz),
@@ -367,7 +367,7 @@ extension Recipe {
 		),
 		Recipe(mainInformation: MainInformation(name: "Veggie Soup",
 																						description: "Classic Vegetable Soup",
-																						author: "Travis B",
+																						author: "Scotty Schwartz-Owen",
 																						category: .dinner),
 					 ingredients: [
 						Ingredient(name: "Diced Yellow Onion", quantity: 1, unit: .none),
@@ -392,7 +392,7 @@ extension Recipe {
 		),
 		Recipe(mainInformation: MainInformation(name: "White Clam Sauce",
 																						description: "A simple recipe for quick comfort food",
-																						author: "Henry Minden",
+																						author: "Scotty Schwartz-Owen",
 																						category: .dinner),
 					 ingredients: [
 						Ingredient(name: "Canned Clams", quantity: 40, unit: .oz),
@@ -412,7 +412,7 @@ extension Recipe {
 		),
 		Recipe(mainInformation: MainInformation(name: "Granola Bowl",
 																						description: "A dense and delicious breakfast",
-																						author: "Ben",
+																						author: "Scotty Schwartz-Owen",
 																						category: .breakfast),
 					 ingredients: [
 						Ingredient(name: "Granola", quantity: 0.5, unit: .cups),
@@ -427,7 +427,7 @@ extension Recipe {
 		),
 		Recipe(mainInformation: MainInformation(name: "Lemon Posset",
 																						description: "Three ingredients only, light and creamy!",
-																						author: "Scotty",
+																						author: "Scotty Schwartz-Owen",
 																						category: .dessert),
 					 ingredients: [
 						Ingredient(name: "Heavy Cream", quantity: 16, unit: .oz),
@@ -445,7 +445,7 @@ extension Recipe {
 						Direction(description: "Before serving, garnish with lemon zest, berries, or mint", isOptional: false)
 					 ]
 		),
-		Recipe(mainInformation: MainInformation(name: "Crumpets", description: "Easy home-made goodness", author: "Scotty", category: .breakfast), 
+		Recipe(mainInformation: MainInformation(name: "Crumpets", description: "Easy home-made goodness", author: "Scotty Schwartz-Owen", category: .breakfast),
 					 ingredients: [
 						Ingredient(name: "Unbleached All-Purpose Flour", quantity: 3.5, unit: .cups),
 						Ingredient(name: "Baking Powder", quantity: 1, unit: .tsp),
