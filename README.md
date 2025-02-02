@@ -1,4 +1,4 @@
-# Scottylicious IOS App
+# Scottylicious iOS App
 
 <p align="left">
     <img src="https://github.com/scottyschwartzowen/Scottylicious/blob/main/Scottylicious/Assets.xcassets/Images/scottylicious.imageset/scottylicious.png" alt="Scottylicious App Image" width="75%" />
