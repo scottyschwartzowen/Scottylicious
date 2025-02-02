@@ -39,6 +39,7 @@
 		2D147DDC2BB0901F00762DA5 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		2D147DF82BB0BE7800762DA5 /* RecipeCategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryGridView.swift; sourceTree = "<group>"; };
 		2D9EB7032C51C90F0021EB28 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2D9F33EE2D50128E008D33F7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2DCE596F2C51623800651879 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		2DDDBA2A2BCC60C900887ABD /* ModifyMainInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyMainInformationView.swift; sourceTree = "<group>"; };
 		2DDDBA2C2BCCA94500887ABD /* ModifyIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyIngredientView.swift; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		2D147D9A2BAE434B00762DA5 = {
 			isa = PBXGroup;
 			children = (
+				2D9F33EE2D50128E008D33F7 /* README.md */,
 				2D147DA52BAE434B00762DA5 /* Scottylicious */,
 				2D147DA42BAE434B00762DA5 /* Products */,
 			);
