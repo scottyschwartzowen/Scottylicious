@@ -10,31 +10,48 @@ import SwiftUI
 struct MainTabView: View {
 
 	@StateObject var recipeData = RecipeData()
+	@State private var selectedTab = 0 // Track the selected tab
 
-    var body: some View {
-			TabView {
-				RecipeCategoryGridView()
-					.tabItem {
-						Label("Recipes", systemImage: "list.dash")
-					}
-				NavigationStack {
-					RecipesListView(viewStyle: .favorites)
-				}
+	var body: some View {
+		TabView(selection: $selectedTab) {
+
+			// Recipe Category Grid Tab
+			RecipeCategoryGridView()
 				.tabItem {
-					Label("Favorites", systemImage: "heart.fill")
+					Label("Recipes", systemImage: "list.dash")
 				}
-				SettingsView()
-					.tabItem {
-						Label("Settings", systemImage: "gear")
+				.tag(0) // Tag for the Recipes tab
+				.onChange(of: selectedTab) { newTab in
+					// Reset the navigation stack when the "Recipes" tab is tapped
+					if newTab == 0 {
+						// Find the current RecipeCategoryGridView instance and reset navigation
+						// We can use an environment object or directly call reset if passing a method
 					}
+				}
+
+			// Favorites Tab
+			NavigationStack {
+				RecipesListView(viewStyle: .favorites)
 			}
-			.environmentObject(recipeData)
-			.onAppear {
-				recipeData.loadRecipes()
+			.tabItem {
+				Label("Favorites", systemImage: "heart.fill")
 			}
-    }
+			.tag(1)
+
+			// Settings Tab
+			SettingsView()
+				.tabItem {
+					Label("Settings", systemImage: "gear")
+				}
+				.tag(2)
+		}
+		.environmentObject(recipeData)
+		.onAppear {
+			recipeData.loadRecipes()
+		}
+	}
 }
 
 #Preview {
-    MainTabView()
+	MainTabView()
 }
