@@ -29,8 +29,9 @@ struct RecipeCategoryGridView: View {
 				})
 			}
 			.navigationTitle("Categories")
-			.onChange(of: navigationPath) { _ in
+			.onChange(of: navigationPath) { newPath in
 				// Whenever the navigation path changes, you can react if needed.
+				print("Navigation path changed: \(newPath)")
 			}
 		}
 	}
